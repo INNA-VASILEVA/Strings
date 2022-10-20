@@ -25,7 +25,7 @@ public class Main {
         if ((fullName1.contains("ё"))) {
             String name1 = fullName1.replace('ё', 'е');
             System.out.println("Данные ФИО сотрудника — " + name1);
-        } else if ((fullName1.contains("Ё"))) {  // если вдруг ФИО начинается с заглавной буквы Ё, или опечатался - ПЁтр"
+        } else if ((fullName1.contains("Ё"))) {  // если вдруг ФИО начинается с заглавной буквы Ё, или опечатался - ПЁтр."
             String name1 = fullName1.replace('Ё', 'Е');
             System.out.println("Данные ФИО сотрудника — " + name1);
         } else { //если никаких запрещенных символов нет в ФИО то переменная выводится как есть
